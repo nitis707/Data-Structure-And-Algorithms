@@ -9,3 +9,11 @@ int main()
     }
     return 0;
 }
+
+/* Output:
+2
+4
+6
+8
+10
+*/

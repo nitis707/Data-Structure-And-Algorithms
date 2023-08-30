@@ -3,9 +3,13 @@ using namespace std;
 
 int main()
 {
-    for (int i = 0; i < 11; i++)
+    for (int i=10; i >= 10; i--)
     {
-        cout << "Nitish" << endl;
+        cout << i << endl;
     }
     return 0;
 }
+
+/* Output:
+10
+*/

@@ -9,3 +9,16 @@ int main()
     }
     return 0;
 }
+
+/* Output:
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+*/
