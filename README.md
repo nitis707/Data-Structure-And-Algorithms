@@ -4,3 +4,6 @@ This is my DSA repository.
 <br>
 Author - Nitish Singh
 
+/* Output:
+
+*/
