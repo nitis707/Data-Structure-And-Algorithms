@@ -7,17 +7,17 @@ int main()
     cout << "Enter num: ";
     cin >> num;
 
-    for (int row = 0; row < num; row = row + 1)
+    for (int row = 0; row < num; row = row++)
     {
         // spaces
-        for (int col = 0; col < row; col = col + 1)
+        for (int col = 0; col < row; col = col++)
         {
             cout << " ";
         }
 
         // stars
         //  int totalCol = num-row;
-        for (int col = 0; col < num - row; col = col + 1)
+        for (int col = 0; col < num - row; col = col++)
         {
             // if first or last col
             if (col == 0 || col == num - row - 1)
