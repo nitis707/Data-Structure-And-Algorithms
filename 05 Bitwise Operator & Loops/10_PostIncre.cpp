@@ -14,5 +14,5 @@ int main()
 
 /* Output:
 First PostIncre: 6
-Second PostIncre: 70
+Second PostIncre: 60
 */
