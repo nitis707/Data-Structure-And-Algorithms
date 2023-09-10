@@ -8,8 +8,7 @@ int main()
     a++;
     cout << "First PostIncre: " << a << endl;
 
-    a++;
-    cout << "Second PostIncre: " << (a) * 10 << endl;
+    cout << "Second PostIncre: " << (a++) * 10 << endl;
     return 0;
 }
 
