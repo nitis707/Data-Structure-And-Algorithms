@@ -7,6 +7,7 @@ int main()
     {
         cout << i << endl;
     }
+    
     //cout << i << endl; // Error because It is outside the loop Local variable can't access reason is out of scope.
     return 0;
 }

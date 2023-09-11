@@ -10,6 +10,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 OR of a | b is: 15
 */

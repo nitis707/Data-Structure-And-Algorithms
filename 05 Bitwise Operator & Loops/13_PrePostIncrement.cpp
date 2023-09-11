@@ -14,6 +14,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 First: 22
 Second: 22

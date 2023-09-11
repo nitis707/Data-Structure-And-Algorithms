@@ -10,6 +10,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 132/121 why two types of value in diff compler
 a: 12

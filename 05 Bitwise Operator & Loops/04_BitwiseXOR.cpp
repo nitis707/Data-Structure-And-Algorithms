@@ -10,6 +10,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 XOR of a and b is: 15
 */

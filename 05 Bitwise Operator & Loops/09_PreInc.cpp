@@ -12,6 +12,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 First Increment: 6
 Second Increment: 70

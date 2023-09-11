@@ -10,6 +10,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 RightShift of 5 is: 2
 */

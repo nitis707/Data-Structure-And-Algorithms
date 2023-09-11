@@ -10,6 +10,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 Output: 1
 */

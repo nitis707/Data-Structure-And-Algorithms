@@ -10,6 +10,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 Left Shift of 7 is: 56
 */

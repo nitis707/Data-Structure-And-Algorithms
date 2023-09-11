@@ -9,6 +9,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 RightShift by 2 is: 12
 */

@@ -12,6 +12,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 First Decremet: 4
 Second Decrement: 40

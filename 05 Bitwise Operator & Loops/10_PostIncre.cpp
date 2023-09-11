@@ -12,6 +12,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 First PostIncre: 6
 Second PostIncre: 60
