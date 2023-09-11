@@ -1,18 +1,18 @@
 #include<iostream>
 using namespace std;
 
-void printName(string Name)
+void printName()
 {
     for(int i=0; i<5; i++)
     {
-        cout<<Name<<endl;
+        cout<<"Nitish"<<endl;
     }
 }
 
 int main()
 {
-    printName("Nitish");
-    printName("Singh");
+    // Call function
+    printName();
     return 0;
 }
 
@@ -24,9 +24,4 @@ Nitish
 Nitish
 Nitish
 Nitish
-Singh 
-Singh 
-Singh 
-Singh 
-Singh
 */
