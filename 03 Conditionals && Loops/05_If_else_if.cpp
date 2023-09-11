@@ -31,6 +31,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 Enter the value of a: 5
 Enter the value of b: 10

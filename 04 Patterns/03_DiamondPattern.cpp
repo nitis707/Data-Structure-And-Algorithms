@@ -40,6 +40,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 Enter N: 10
     *     

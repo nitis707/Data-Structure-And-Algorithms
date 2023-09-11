@@ -18,6 +18,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 Enter number: 56
 Even

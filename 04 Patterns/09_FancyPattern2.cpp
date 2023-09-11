@@ -25,6 +25,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 Enter num: 5
 1

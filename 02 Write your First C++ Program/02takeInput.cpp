@@ -11,3 +11,9 @@ int main()
     cout << "Printing marks: " << marks << endl;
     return 0;
 }
+
+
+
+/* Output:
+
+*/

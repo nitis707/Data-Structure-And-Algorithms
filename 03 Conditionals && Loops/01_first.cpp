@@ -18,6 +18,8 @@ int main()
     return 0;
 }
 
+
+
 /*Output:
 Enter value of balance: 56
 Maggi

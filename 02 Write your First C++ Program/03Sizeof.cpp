@@ -24,3 +24,9 @@ int main()
     cout << "Size of LONG Number: " << sizeof(number) << endl;
     return 0;
 }
+
+
+
+/* Output:
+
+*/

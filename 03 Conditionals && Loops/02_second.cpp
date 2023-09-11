@@ -17,6 +17,8 @@ int main()
     return 0;
 }
 
+
+
 /* Output:
 Enter age: 34
 Eligible for licence.
