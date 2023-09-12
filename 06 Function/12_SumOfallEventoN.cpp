@@ -24,7 +24,7 @@ int main()
     return 0;
 }
 
-/* Output:
+/* Output: 
 Enter a positive num: 10
 Print sum of Even: 30
 */

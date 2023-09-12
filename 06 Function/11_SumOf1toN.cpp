@@ -20,8 +20,6 @@ int main()
     return 0;
 }
 
-
-
 /*Output:
 Num: 5
 Final Sum: 15
