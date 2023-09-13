@@ -12,3 +12,7 @@ int main()
     cout << "Array created successfully." << endl;
     return 0;
 }
+
+/* Output:
+Array created successfuly.
+*/
