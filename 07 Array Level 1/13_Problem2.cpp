@@ -1,4 +1,4 @@
-// Minimum and maximum number in an array.
+// Minimum number in an array.
 
 #include <iostream>
 #include <limits.h>
