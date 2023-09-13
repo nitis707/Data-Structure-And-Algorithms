@@ -15,7 +15,7 @@ int main()
     return 0;
 }
 
-/* Outpu:
+/* Output:
 Address of a: 0x61ff0c
 Size of a: 4 bytes.
 Address of arr: 0x61fee4
