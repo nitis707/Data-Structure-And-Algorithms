@@ -9,7 +9,7 @@ int findMaximumInArray(int arr[], int size)
     int maxAns = INT_MIN;
     for (int i = 0; i < size; i++)
     {
-        if (arr[i] < maxAns)
+        if (arr[i] > maxAns)
         {
             maxAns = arr[i];
         }
