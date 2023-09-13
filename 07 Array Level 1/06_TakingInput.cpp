@@ -12,7 +12,7 @@ int main()
         cin >> arr[i];
     }
 
-    // Printing in Array.
+    // Printing the Array.
     cout << "Printing the array: " << endl;
     for (int i = 0; i < n; i++)
     {
