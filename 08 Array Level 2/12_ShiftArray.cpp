@@ -1,5 +1,5 @@
 /*
-Shift array by 1.
+Right Shift array by 1.
 
 Let:
 I/P = 10, 20, 30, 40, 50, 60

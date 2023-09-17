@@ -3,7 +3,7 @@ Left Shift array by 1.
 
 Let:
 I/P = 10, 20, 30, 40, 50, 60
-O/P = 60, 10, 20, 30, 40, 50
+O/P = 20 30 40 50 60 10
 */
 
 #include <iostream>
@@ -15,7 +15,7 @@ void shiftArray(int arr[], int n)
     int temp = arr[0];
 
     // Step 2
-    // Shift => arr[i] = arr[i-1]
+    // Shift => arr[i] = arr[i+1]
     for (int i = 0; i < n - 1; i++)
     {
         arr[i] = arr[i + 1];
