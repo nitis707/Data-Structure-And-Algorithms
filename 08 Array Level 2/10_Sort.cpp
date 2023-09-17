@@ -25,8 +25,9 @@ void sortZeroOne(int arr[], int num)
         }
     }
 
-    // Difficult Way
     // Step B: place all zeros first
+    
+    // Difficult Way
     // int i;
     // for (i = 0; i < zeroCount; i++)
     // {
