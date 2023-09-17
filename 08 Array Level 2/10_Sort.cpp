@@ -7,6 +7,8 @@ Solved by:
 3. sort()
 */
 
+// 1. Counting
+
 void sortZeroOne(int arr[], int num)
 {
     int zeroCount = 0;
