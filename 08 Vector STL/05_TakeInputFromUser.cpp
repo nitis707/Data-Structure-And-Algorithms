@@ -12,7 +12,7 @@ void printVec(vector<int> v)
         cout << v[i] << " ";
 
         // another method, it gives same result like above v[i].
-        // cout<<v.at(i)<<endl;
+        // cout << v.at(i) << " ";
     }
     cout << endl;
 }
