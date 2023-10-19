@@ -28,15 +28,15 @@ int findMax(int arr[][4], int row, int col)
 
 int main()
 {
+    int row = 3;
+    int col = 4;
+
     int arr[3][4] = {
         {1, 2, 30, 4},
         {5, 6, 70, 8},
         {9, 10, 1, 11}
 
     };
-    int row = 3;
-    int col = 4;
-
     cout << "Printing the max No.: " << findMax(arr, row, col) << endl;
 
     return 0;

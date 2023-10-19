@@ -32,6 +32,7 @@ int main()
     int col = 4;
 
     printColSum(arr, row, col);
+    
     return 0;
 }
 

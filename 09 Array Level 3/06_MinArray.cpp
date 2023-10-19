@@ -21,16 +21,17 @@ int findMin(int arr[][4], int row, int col)
 
 int main()
 {
+    int row = 3;
+    int col = 4;
+    
     int arr[3][4] = {
         {-1, 2, 30, 4},
         {5, 6, 70, 8},
         {9, 10, 0, 11}
 
     };
-    int row = 3;
-    int col = 4;
-
     cout << "Printing the min No.: " << findMin(arr, row, col) << endl;
+
     return 0;
 }
 
