@@ -12,7 +12,9 @@ int firstOccurence(int arr[], int n, int target)
 {
     int start = 0;
     int end = n - 1;
-    int mid = (start + end) / 2;
+    // In this case Integer can be overflow
+    // int mid = (start + end) / 2;
+    int mid = start + (end - start) / 2; // Then use this.
 
     int ans = -1;
     while (start <= end)
