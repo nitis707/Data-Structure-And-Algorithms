@@ -34,12 +34,17 @@ int findMissingNum(int arr[], int n)
         }
         mid = start + (end - start) / 2;
     }
+
+    if (ans + 1 == 0)
+    {
+        return n + 1;
+    }
     return ans + 1;
 }
 
 int main()
 {
-    int arr[] = {1, 2, 3, 4, 6, 7, 9};
+    int arr[] = {1, 2, 3, 4, 6, 7, 8, 9};
     int n = 8;
 
     int ans = findMissingNum(arr, n);
