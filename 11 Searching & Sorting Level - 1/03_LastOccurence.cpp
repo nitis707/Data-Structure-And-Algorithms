@@ -1,14 +1,14 @@
 /*
-Find first occurence of a number in a sorted array
+Find last occurence of a number in a sorted array
 I/P - 10 20 30 30 30 30 40 50
 Target - 30
-O/P - 2
+O/P - 5
 */
 
 #include <iostream>
 using namespace std;
 
-int firstOccurence(int arr[], int n, int target)
+int lastOccurence(int arr[], int n, int target)
 {
     int start = 0;
     int end = n - 1;
@@ -23,15 +23,15 @@ int firstOccurence(int arr[], int n, int target)
         {
             // ans store
             ans = mid;
-            // go to left
-            end = mid - 1;
+            // go to right
+            start = mid + 1;
         }
-        else if (arr[mid] < target)
+        else if (target > arr[mid])
         {
             // go right
             start = mid + 1;
         }
-        else if (arr[mid] > target)
+        else if (target < arr[mid])
         {
             // go left
             end = mid - 1;
@@ -52,7 +52,7 @@ int main()
     cout << "Enter target element: ";
     cin >> target;
 
-    int ansIndex = firstOccurence(arr, n, target);
+    int ansIndex = lastOccurence(arr, n, target);
 
     if (ansIndex == -1)
     {
@@ -67,5 +67,5 @@ int main()
 
 /* Output:
 Enter target element: 30
-Target found at index: 2
+Target found at index: 5
 */
