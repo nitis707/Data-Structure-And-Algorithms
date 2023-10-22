@@ -19,17 +19,23 @@ int firstOccurence(int arr[], int n, int target)
     {
         if (arr[mid] == target)
         {
+            // ans store
             ans = mid;
+            // go to left
             end = mid - 1;
         }
         else if (arr[mid] < target)
         {
+            // go right
             start = mid + 1;
         }
         else if (arr[mid] > target)
         {
+            // go left
             end = mid - 1;
         }
+        // galti yaha hoti hai hamnesha
+        // update mid
         mid = (start + end) / 2;
     }
     return ans;
@@ -56,3 +62,8 @@ int main()
     }
     return 0;
 }
+
+/* Output:
+Enter target element: 40
+Target found at index: 3
+*/
