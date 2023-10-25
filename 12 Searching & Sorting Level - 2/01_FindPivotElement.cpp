@@ -24,3 +24,7 @@ int main()
     int ans = findPivotIndex(arr, n);
     return 0;
 }
+
+/* Output:
+
+*/
