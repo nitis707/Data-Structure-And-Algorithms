@@ -26,5 +26,5 @@ int main()
 }
 
 /* Output:
-Pivot element is: 
+Pivot element is:
 */
