@@ -9,6 +9,7 @@ using namespace std;
 void square(int a)
 {
     int a;
+    int b;
 }
 
 int main()
