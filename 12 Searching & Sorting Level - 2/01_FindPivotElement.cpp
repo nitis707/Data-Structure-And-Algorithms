@@ -19,8 +19,8 @@ int findPivotIndex(int arr[], int n)
 
 int main()
 {
-    int arr[] = {1, 2, 3};
-    int n = 3;
+    int arr[] = {1, 2, 3, 4};
+    int n = 4;
     int ans = findPivotIndex(arr, n);
     return 0;
 }
