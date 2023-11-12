@@ -15,5 +15,6 @@ void square(int a)
 int main()
 {
     int square;
+    int a = 5;
     return 0;
 }
