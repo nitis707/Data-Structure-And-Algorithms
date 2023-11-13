@@ -6,7 +6,7 @@ o/p => sqrroot(x)
 #include <iostream>
 using namespace std;
 
-void square(int a)
+void square(int a, int arr[])
 {
     int a;
     int b;
