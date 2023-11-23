@@ -12,6 +12,10 @@ void square(int a, int arr[])
 {
     int a;
     int b;
+    for(int i=0; i<a; i++)
+    {
+        
+    }
 }
 
 int main()
