@@ -1,4 +1,7 @@
-/* Find Pivot element. */
+/* Find Pivot element.
+
+I/P = 1,2,3,4,5
+ */
 
 #include <iostream>
 using namespace std;
